@@ -38,7 +38,7 @@ commands:
           Por favor, peça a um administrador para verificar as permissões do bot.
         title: ❌ Erro
       not_ticket:
-        description: Você só pode fixar mensagens em tickets.
+        description: Tu só podes fixar mensagens em tickets.
         title: ❌ Este não é um canal de ticket
       pinned:
         description: A mensagem foi fixada.
@@ -84,7 +84,7 @@ commands:
         title: ✅ Ticket fechado
       confirm_multiple:
         description: >
-          Você está prestes a fechar **{count}** tickets que estão inativos
+          Tu estas prestes a fechar **{count}** tickets que estão inativos
           por mais de `{time}`:
 
           {tickets}
@@ -214,9 +214,9 @@ commands:
           closed:
             name: Tickets fechados
             none:
-              other: "{user} não fez nenhum ticket."
+              other: "{user} não tem nenhum ticket."
               own: |
-                Você não fez nenhum ticket.
+                Tu não tens nenhum ticket.
                 Use {new} para abrir um ticket.
           open:
             name: Tickets abertos
@@ -276,7 +276,7 @@ dm:
       topic: Tópico
     title: Seu ticket foi fechado
   confirm_open:
-    title: Você deseja abrir um ticket com o seguinte tópico?
+    title: Tu queres abrir um ticket com o seguinte tópico?
 log:
   admin:
     changes: Alterações
@@ -326,7 +326,7 @@ menus:
     placeholder: Selecione um servidor
 misc:
   blocked:
-    description: Você não tem permissão para criar tickets.
+    description: Tu não tens permissão para criar tickets.
     title: ❌ Bloqueado
   category_full:
     description: |
@@ -344,7 +344,7 @@ misc:
       identifier: Identificador
     title: ⚠️ Algo deu errado
   expired:
-    description: Você não respondeu a tempo. Por favor, tente novamente.
+    description: Tu não respondes-te a tempo. Por favor, tenta novamente.
     title: ⏰ Expirado
   expires_in: Expira em {time}
   invalid_ticket:
@@ -357,11 +357,11 @@ misc:
       Feche um ticket antes de criar outro.
       Use `/tickets` para visualizar seus tickets existentes.
     title:
-    - ❌ Você já tem ticket aberto
-    - ❌ Você já tem %d tickets abertos
+    - ❌ Tu já tens ticket aberto
+    - ❌ Tu já tens %d tickets abertos
   missing_roles:
     description: >-
-      Você não tem os cargos necessários para criar um ticket
+      Tu não tens os cargos necessários para criar um ticket
       nesta categoria.
     title: ❌ Cargos insuficientes
   no_categories:
@@ -369,7 +369,7 @@ misc:
       em {url}."
     title: ❌ Não há categorias de tickets
   not_ticket:
-    description: Você só pode usar esse comando em tickets.
+    description: Tu só podes usar este comando em tickets.
     title: ❌ Este não é um canal de tickets
   ratelimited:
     description: Tente novamente em alguns segundos.
@@ -384,7 +384,7 @@ misc:
       > [Guia de atualização]({guide})
     title: Uma atualização está disponível
   role_error:
-    description: Desculpe, a operação falhou devido a uma configuração inválida.
+    description: Desculpa, a operação falhou devido a uma configuração inválida.
     fields:
       for_admins:
         name: Para administradores do servidor
@@ -396,11 +396,11 @@ modals:
   feedback:
     comment:
       label: Comentário
-      placeholder: Você tem algum comentário adicional?
+      placeholder: Tu tens algum comentário adicional?
     rating:
       label: Avaliação
       placeholder: 1-5
-    title: Como foi seu atendimento?
+    title: Como foi teu atendimento?
   topic:
     label: Tópico
     placeholder: Sobre o que é esse ticket?
@@ -413,7 +413,7 @@ ticket:
       description: Este canal será excluído em alguns segundos…
       title: ✅ Ticket fechado
     forbidden:
-      description: Você não tem permissão para fechar este ticket.
+      description: Tu não tens permissão para fechar este ticket.
       title: ❌ Erro
     rejected: ✋ {user} rejeitou uma solicitação para fechar este ticket.
     staff_request:
@@ -469,9 +469,9 @@ ticket:
   working_hours:
     next:
       description: Estaremos de volta às <t:{timestamp}:F> (<t:{timestamp}:R>), embora
-        você pode receber uma resposta antes disso.
+        tu podes receber uma resposta antes disso.
       title: 🕗 Não estamos trabalhando no momento
     today:
-      description: Você pode receber uma resposta antes, mas só começaremos a trabalhar
+      description: Tu podes receber uma resposta antes, mas só começamos a trabalhar
         <t:{timestamp}:t> hoje (<t:{timestamp}:R>).
       title: 🕗 Não estamos trabalhando no momento
