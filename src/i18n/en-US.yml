@@ -23,3 +23,8 @@ buttons:
   reject_close_request:
     emoji: ✖️
     text: Reject
+  transcript:
+    emoji: 📄
+    text: Transcript
+  unclaim:
+    emoji: ♻️
